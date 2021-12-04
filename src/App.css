@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(./Assets/Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Black;
+  src: url(./Assets/Fonts/Montserrat-Black.ttf);
+}
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(./Assets/Fonts/Montserrat-Bold.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fc-ec{
+  color: #ececec;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.fc-66{
+  color: #666666;
+}
+
+.fc-bd{
+  color: #bdbdbd;
+}
+
+.fc-42{
+  color: #424242;
+}
+
+.bg-ec{
+  background-color: #ececec;
+}
+
+.bg-66{
+  background-color: #666666;
+}
+
+.bg-df{
+  background-color: #dfdedf;
+}
+
+
+.hero-text h1,  nav a, h1, .contact a {
+    font-family: Montserrat-Black;
+}
+
+.about p, .projects p, a, footer p {
+    font-family: Montserrat-Regular;
+}
+
+.hero-text button, .about h2, .project-buttons a {
+    font-family: Montserrat-Bold;
+}
+
+.z--1{
+  z-index: -1;
+}
+
+@media screen and (min-width: 60em){
+  .bg-btright-l {
+      background-repeat: no-repeat;
+      background-position: bottom right !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  .bg-btleft-l {
+      background-repeat: no-repeat;
+      background-position: bottom left !important;
   }
 }
