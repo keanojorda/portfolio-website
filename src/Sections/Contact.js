@@ -11,12 +11,12 @@ const Contact = () => {
         <section id="contact" className="contact items-center">
             <div className="bg-66 vh-100 ma0 cover bg-left bg-center-l" style={{ backgroundImage: `url(${ ContactImage })`}}>
                 <div className="fl pa2 ma0 w-100 h-100 flex flex-column">
-                <div className="fl pa2 ma0 w-100 h-50">
-                    <h1 className="f3 f2-l mt5 mb2 tc-l fc-ec ttu">Would you like to work with me? Awesome! </h1>
+                <div className="fl pa2 ma0 w-100 h-50 flex flex-column-reverse">
+                    <h1 className="f3 f2-l mt2 mb4 tc-l fc-ec ttu">Let's create awesome things together</h1>
                     </div>
                     <div className="fl pa2 w-100 h-50 flex flex-column db items-center">
                         <div className="w-100 pa3 ma2 h-25 center self-start">
-                            <a className="f4 link ba bw1 w-80 w-20-l bg-animate hover-bg-white-20 no-underline white mt2 mb5-l pv2 ph3 ba ttu" href="mailto:keanojorda@gmail.com" aria-labelledby="Let's Talk" target="_blank" rel="noreferrer noopener" >Let's Talk</a> 
+                            <a className="f4 link ba bw1 w-80 w-20-l bg-animate hover-bg-black-90 no-underline white mt2 mb5-l pv2 ph3 ba ttu" href="mailto:keanojorda@gmail.com" aria-labelledby="Let's Talk" target="_blank" rel="noreferrer noopener" >Message Me</a> 
                         </div>
                         <div className="w-100 pa3 ma2 h-50"></div>
                         <div className="w-100 pa3 ma2 h-25 center self-end">

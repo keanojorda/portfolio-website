@@ -14,13 +14,13 @@ const AboutMe = () => {
                         </div>
                         <div className="fl dn db-l center w-20 flex mb4 bb-l bw1-l white ba-l bg-white"></div>
                         <div className="fl flex flex-column w-100 pa2">
-                            <div className="about-text center tl-l">
-                                <p className="f6 f4-l lh-copy measure-l pl2 bg-black-30 mt0 white">
+                            <div className="about-text center bg-black-70 tl-l">
+                                <p className="f6 f4-l lh-copy measure-l ph2 white">
                                 I am a Web Developer based in the Philippines. 
                                 Photography has been one of my passion and it has allowed me to be creative and view ordinary things in a different perspective to
                                 get unique shots.
                                 </p>
-                                <p className="f6 f4-l lh-copy measure-l pl2 bg-black-30 white">
+                                <p className="f6 f4-l lh-copy measure-l ph2 white">
                                 I like travelling since it is a way for me to experience new things and enjoy life more. During my free time, I enjoy 
                                 reading books especially non-fiction ones, since it's a way for me to learn something new that could help in my daily activities or 
                                 in a skill that I've been wanting to improve on.
